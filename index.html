@@ -16,29 +16,55 @@
     <link href="./styles/styles.css" rel="stylesheet">
   </head>
   <body>
+    <main class="container center">
+      <div class="card">
+        <section class="result">
+          <h1 class="score-title">Your Result</h1>
+          <div class="score center">
+            <h2 class="score-number">
+              <span>76</span><span class="score-max">of 100</span>
+            </h2>
+          </div>
 
-    Your Result
-    76
-    of 100
+          <p class="score-text">Great</p>
 
-    Great
-    You scored higher than 65% of the people who have taken these tests.
+          <p class="score-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <section class="summary">
+          <h2 class="title">Summary</h2>
 
-    Summary
+          <div class="summary-list">
+            <div class="summary-item">
+              <img alt="Reaction icon" src="./assets/images/icon-reaction.svg">
+              <h3 class="summary-title">Reaction</h3>
+              <p class="summary-text">80 / <span>100</span></p>
+            </div>
 
-    Reaction
-    80 / 100
+            <div class="summary-item">
+              <img alt="Memory icon" src="./assets/images/icon-memory.svg">
+              <h3 class="summary-title">Memory</h3>
+              <p class="summary-text">92 / <span>100</span></p>
+            </div>
 
-    Memory
-    92 / 100
+            <div class="summary-item">
+              <img alt="Verbal icon" src="./assets/images/icon-verbal.svg">
+              <h3 class="summary-title">Verbal</h3>
+              <p class="summary-text">61 / <span>100</span></p>
+            </div>
 
-    Verbal
-    61 / 100
+            <div class="summary-item">
+              <img alt="Visual icon" src="./assets/images/icon-visual.svg">
+              <h3 class="summary-title">Visual</h3>
+              <p class="summary-text">72 / <span>100</span></p>
+            </div>
+          </div>
 
-    Visual
-    72 / 100
-
-    Continue
+          <button class="btn" type="button">Continue</button>
+        </section>
+      </div>
+    </main>
 
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
